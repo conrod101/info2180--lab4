@@ -16,7 +16,7 @@ window.onload = function(){
 
 	start = document.getElementById("start");
 	end   = document.getElementById("end");
-	boundaries = document.querySelectorAll(".boundary");
+	boundaries = document.querySelectorAll(".boundary:not(.example)");
 	maze = document.getElementById("maze");
 
 	//Wall change to red when a mouse touches it
